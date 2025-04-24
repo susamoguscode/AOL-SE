@@ -1,6 +1,32 @@
-Deskripsi AOL :
-Fitur dari AOL 
+Deskripsi AOL : AOL adalah sebuah aplikasi berbasis web yang dirancang untuk membantu petani dan pengguna umum dalam mendeteksi penyakit pada daun jagung secara otomatis. Aplikasi ini memanfaatkan model deep learning (CNN) dan teknologi Large Language Model (LLM) untuk menganalisis gambar daun, mengidentifikasi penyakit, serta memberikan saran perawatan yang sesuai. Tujuan dari aplikasi ini adalah mendukung produktivitas pertanian dengan teknologi cerdas yang mudah digunakan, cepat, dan akurat.
 
+AOL dapat diakses secara lokal (localhost) dan dirancang agar dapat dikembangkan lebih lanjut ke versi publik di masa depan.
+
+
+Fitur dari AOL :
+1. Deteksi Penyakit Otomatis
+Pengguna dapat mengunggah gambar daun jagung.
+Sistem akan menganalisis gambar menggunakan model CNN (ResNet) dan memberikan hasil diagnosis.
+
+2. Pengenalan 4 Kategori Daun
+Gray Leaf Spot
+Common Rust
+Northern Leaf Blight
+Healthy (Sehat)
+
+3. Saran Perawatan via LLM
+Setelah penyakit dikenali, sistem akan menggunakan LLM (misalnya Gemini) untuk memberikan saran pengobatan dan pencegahan.
+Jika daun sehat, pengguna akan diberi tips menjaga kesehatan tanaman.
+
+4. Antarmuka Ramah Pengguna
+Dibuat dengan Streamlit, memungkinkan pengguna berinteraksi dengan mudah: unggah gambar → lihat hasil → baca saran.
+
+5. Ringan dan Lokal
+Dapat dijalankan di laptop/PC pengguna tanpa perlu internet (localhost).
+Mendukung penggunaan offline untuk petani di daerah terbatas akses jaringan.
+
+6. Akun Media Sosial (rencana)
+Untuk berbagi informasi edukasi, hasil penelitian, dan feedback pengguna.
 
 Team member :
 Alfonsus Nathanael - 2702245236
